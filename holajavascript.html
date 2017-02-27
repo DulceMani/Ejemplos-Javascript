@@ -13,17 +13,42 @@
         window.document.write('<h1 style="color:red;">Me gusta JavaScript</h1>')
         window.console.log('Hola consola')
 
-        document.write('<table>')
+        
         var lenguajes= ['HTML','CSS','JavaScript','PHP']
-        for(var i = 0; i <lenguajes.length; i++){
+        var otros= ['C++','CSS','Java','Python']
+
+        
+        function imprime_renglon(elemento, indice, arreglo)
+        {  
             document.write('<tr>')
             document.write('<td style="border:solid">')
-            document.write(lenguajes[i])
+            document.write(indice)
+            document.write('</td>')
+            document.write('<td style="border:solid">')
+            document.write(arreglo[indice])
             document.write('</td>')
             document.write('</tr>')
-            
         }
+        document.write('lenguajes <br>')
+        document.write('<table>')
+        lenguajes.forEach(imprime_renglon)
         document.write('</table>')
+
+        document.write('Otros <br>')
+        document.write('<table>')
+        otros.forEach(imprime_renglon)
+        document.write('</table>')
+
+        //for(var i = 0; i <lenguajes.length; i++){
+        //     for (var x in lenguajes){
+        //     document.write('<tr>')
+        //     document.write('<td style="border:solid">')
+        //     document.write(lenguajes[x])
+        //     document.write('</td>')
+        //     document.write('</tr>')
+            
+        // }
+        
         </script>
     </body>
 </html>
