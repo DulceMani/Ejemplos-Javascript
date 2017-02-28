@@ -1,0 +1,13 @@
+body {
+    background: greenyellow;
+}
+
+#contnedor {
+    width: 20px;
+}
+.caja {
+    padding: 20px;
+    margin: 10px;
+    background: lightpink;
+    border: solid 0.5px;
+}
