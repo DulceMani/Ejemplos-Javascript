@@ -1,6 +1,6 @@
 function saludar()
 {
-    alert('Hola eventos')
+    alert('Hola eventos ')
 }
 
 function saludar2()

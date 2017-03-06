@@ -1,21 +1,41 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
 button {
-    width: 40px;
+    width: 80px;
+    height: 60px;
+     font-size: 200%;
 }
 #margen {
-    width: 180px;
-    border: solid 0.5px;
+    width: 340px;
+    border: solid 4px;
+    overflow: hidden;
+    margin: auto;
+    background-color: black;
+    border-color: grey;
     
 }
 #operacion{
-    margin-top: 10px;
-    margin-right: 20px;
-    margin-bottom: 30px;
-    margin-left: 40px;
-    border-color: black;
+    
+    border-color: grey;
     border-width: 1px;
     border-style: solid;
-    width: 200px;
-    height: 40px;
-    padding-top: 20px;
-    padding-left: 30px
+    width: 320px;
+    height: 60px;
+    margin: auto;
+    overflow-x: scroll;
+    background-color: white;
+    text-align: right;
+    font-size: 160%
+}
+table {
+    table-layout: fixed;
+}
+body {
+    background-color: lightpink;
+}
+#define {
+    /*font-style: oblique; */
+    font-weight: 500;
 }
